@@ -1,0 +1,17 @@
+# visdrone.yaml
+path: ./data/visdrone
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 7  # número de classes
+
+names:
+  0: pedestrian
+  1: person
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: bus
